@@ -1,0 +1,7 @@
+table:
+  name: votes
+  schema: public
+object_relationships:
+- name: option
+  using:
+    foreign_key_constraint_on: option_id
